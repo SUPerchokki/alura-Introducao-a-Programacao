@@ -1,5 +1,20 @@
 header{
     background: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caixa{
+    width: 940px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
 }
 
 nav li {
