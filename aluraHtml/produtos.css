@@ -80,3 +80,15 @@ nav a{
     font-weight: bold;
     margin: 10px;
 }
+
+footer{
+    text-align: center;
+    background: #000000;
+    padding: 40px;
+}
+
+.copyright {
+    color: white;
+    font-size: 13px;
+    margin-top: 20px;
+}
