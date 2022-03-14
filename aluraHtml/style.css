@@ -1,8 +1,41 @@
-
-
-.titulo-principal{
-    padding-left: 20px;
+header{
+    background: #BBBBBB;
+    padding: 20px 0;
 }
+
+.caixa{
+    width: 940px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
+
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin-left: 15px;
+}
+
+nav a:hover {
+    color: #C78C17;
+    text-decoration: underline;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
 
 #banner{
     width: 100%;
@@ -34,17 +67,28 @@ em strong{
     padding: 20px;
 }
 
-ul{
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
-}
 
 .itens{
     font-style: italic;
+    
+    
 }
 
 .imagebeneficios{
     width: 50%;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+
+footer{
+    text-align: center;
+    background: #000000;
+    padding: 40px;
+}
+
+.copyright {
+    color: white;
+    font-size: 13px;
+    margin-top: 20px;
 }
