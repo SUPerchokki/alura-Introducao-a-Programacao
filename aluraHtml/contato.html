@@ -23,15 +23,45 @@
 
             <form>
                 <label for="nome-completo">Nome completo: </label>
-                <input type="text" id="nome-completo">
+                <input class="input-default" type="text" id="nome-completo">
 
                 <label for="email">Email</label>
-                <input type="text" id="email">
+                <input class="input-default" type="text" id="email">
 
                 <label for="telefone">Telefone</label>
-                <input type="text" id="telefone">
+                <input class="input-default" type="text" id="telefone">
 
+                <label for="mesagem">Mensagem</label>
+                <textarea class="input-default" id="mensagem" rows="10"></textarea>
+                <div>
+                
+                    <p>Como profere entrar em contato?</p>
+
+                    <label for="radio-email"><input  id="radio-email" name="contato"
+                        type="radio" value="radio-email">Email</label>
+                    
+
+                    <label for="radio-telefone"><input  id="radio-telefone" name="contato" 
+                        type="radio" value="radio-telefone">Telefone</label>
+                    
+
+                    <label for="radio-whatsapp"><input id="radio-whatsapp" name="contato" 
+                        type="radio" value="radio-whatsapp">Whatsapp</label>
+                    
+                </div>
+                <div>
+                    <p>Qual Horario prefere ser atendido?</p>
+                    <select>
+                        <option>Manhã</option>
+                        <option>Tarde</option>
+                        <option>Noite</option>
+                    </select>
+                </div>
+
+                <label><input class="checkbox" type="checkbox">Gostaria de receber nossas novidades por email?</label>
+                
                 <input type="submit" value="Salvar Comentario">
+            
             </form>
 
         </main>
