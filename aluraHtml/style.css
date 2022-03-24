@@ -165,6 +165,7 @@ td,th{
     font-size: 2em;
     margin: 0 0 1em;
     clear: left;
+    text-shadow: 10px 10px red;
 }
 
 .utensilios{
@@ -223,6 +224,13 @@ td,th{
 
 .imagem-beneficios{
     width: 60%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px #000000;
+}
+
+.imagem-beneficios:hover{
+    opacity: 0.3;
 }
 
 .mapa{
