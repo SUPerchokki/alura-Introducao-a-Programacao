@@ -1,3 +1,5 @@
+/* estilo principal que vai em todas as paginas */
+
 body{
     font-family: 'Montserrat', sans-serif;
 }
@@ -38,6 +40,21 @@ nav a{
     font-size: 22px;
     text-decoration: none;
 }
+
+footer{
+    text-align: center;
+    background: #000000;
+    padding: 40px;
+}
+
+.copyright {
+    color: white;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+
+/* estilo da pagina de produtos */
 
 .produtos{
     width: 940px;
@@ -85,18 +102,7 @@ nav a{
     margin: 10px;
 }
 
-footer{
-    text-align: center;
-    background: #000000;
-    padding: 40px;
-}
-
-.copyright {
-    color: white;
-    font-size: 13px;
-    margin-top: 20px;
-}
-
+/* estilo da pagina de contatos */
 
 form{
     margin: 40px 0;
@@ -255,6 +261,8 @@ td,th{
 }
 
 @media screen and (max-width:480px){
+
+    /* layout para mobile da pagina inicial */
     .caixa, .principal, .mapa-conteudo, .conteudo-beneficios, .video{
         width: auto;
     }
@@ -272,6 +280,31 @@ td,th{
     }
 
     .imagem-beneficios{
+        width: 100%;
+    }
+
+    /* layout para mobile da pagina de produtos */
+
+    .produtos{
+        width: 100%;
+    }
+
+    .produtos li{
+        display: block;
+        width: 100%;
+    }
+
+    /* estilo da pagina de contato */
+
+    .enviar{
+        width: 100%;
+    }
+
+    .input-default{
+        width: 85%;
+    }
+
+    table{
         width: 100%;
     }
 }
