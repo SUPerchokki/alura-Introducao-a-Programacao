@@ -1,6 +1,7 @@
 body{
     background-color: #D4CBF9;
     height: 780px;
+    font-family: 'roboto', 'sans-serif';
 }
 
 .retangulo-conteudo{
@@ -17,4 +18,37 @@ body{
 h1{
     text-align: center;
     font-weight: bold;
+    font-size: 40px;
+    padding: 25px;
+}
+
+.curso{
+    padding: 0 10%;
+}
+
+h2, h3{
+    font-size: 40px;
+    padding: 25px;
+}
+
+li{
+    padding: 5px 25px;
+}
+
+.link-html{
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 25px, 50px;
+    transition: 200ms;
+}
+
+
+.link-html::before{
+    content: "  • ";
+}
+
+.link-html:hover{
+    color: #8D71FF;
+    text-decoration: underline;
 }
